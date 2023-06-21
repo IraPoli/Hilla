@@ -1,4 +1,4 @@
-import { Button } from '@hilla/react-components/Button.js';
+/*import { Button } from '@hilla/react-components/Button.js';
 import { Notification } from '@hilla/react-components/Notification.js';
 import { TextField } from '@hilla/react-components/TextField.js';
 import { HelloReactEndpoint } from 'Frontend/generated/endpoints.js';
@@ -9,6 +9,7 @@ export default function HelloReactView() {
 
   return (
     <>
+    <h2>Wow</h2>
       <section className="flex p-m gap-m items-end">
         <TextField
           label="Your name"
@@ -28,3 +29,4 @@ export default function HelloReactView() {
     </>
   );
 }
+*/

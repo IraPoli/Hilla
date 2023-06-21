@@ -1,5 +1,6 @@
-import HelloReactView from 'Frontend/views/helloreact/HelloReactView.js';
-import MainLayout from 'Frontend/views/MainLayout.js';
+//import HelloReactView from 'Frontend/views/helloreact/HelloReactView.js';
+//import MainLayout from 'Frontend/views/MainLayout.js';
+import FirstView from 'Frontend/views/FirstView.js';
 import { lazy } from 'react';
 import { createBrowserRouter, IndexRouteObject, NonIndexRouteObject, useMatches } from 'react-router-dom';
 
@@ -30,14 +31,25 @@ export const useViewMatches = useMatches as () => readonly ViewRouteMatch[];
 
 export const routes: readonly ViewRouteObject[] = [
   {
-    element: <MainLayout />,
+   element: <FirstView />,
+  //  element: <MainLayout />,
     handle: { icon: 'null', title: 'Main' },
-    children: [
-      { path: '/', element: <HelloReactView />, handle: { icon: 'globe-solid', title: 'Hello React' } },
-      { path: '/about', element: <AboutView />, handle: { icon: 'file', title: 'About' } },
+/*    children: [
+    //  { path: '/', element: <HelloReactView />, handle: { icon: 'globe-solid', title: 'Hello React' } },
+   //   { path: '/about', element: <AboutView />, handle: { icon: 'file', title: 'About' } },
+
+
     ],
+
+*/
+
   },
 ];
 
-const router = createBrowserRouter([...routes]);
+//const router = createBrowserRouter([...routes]);
+
+
+const router = createBrowserRouter([
+            { path: '/', element: <FirstView />},
+            ]);
 export default router;

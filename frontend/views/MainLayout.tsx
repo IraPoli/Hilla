@@ -1,4 +1,4 @@
-import { AppLayout } from '@hilla/react-components/AppLayout.js';
+/*import { AppLayout } from '@hilla/react-components/AppLayout.js';
 import { DrawerToggle } from '@hilla/react-components/DrawerToggle.js';
 import { Item } from '@hilla/react-components/Item.js';
 import { Scroller } from '@hilla/react-components/Scroller.js';
@@ -69,3 +69,4 @@ export default function MenuOnLeftLayout() {
     </AppLayout>
   );
 }
+*/
