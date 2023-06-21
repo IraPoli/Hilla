@@ -19,14 +19,12 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
  * and some desktop browsers.
  *
  */
-@SpringBootApplication(scanBasePackages = {"test"} , exclude = JpaRepositoriesAutoConfiguration.class)
+//@SpringBootApplication(scanBasePackages = {"test"} , exclude = JpaRepositoriesAutoConfiguration.class)
 @Theme(value = "hilla-world")
 @EntityScan("com.application.entity.*")
-//@ComponentScan(basePackages = "com.application")
-//@EnableJpaRepositories(basePackages = "com.application")
 @Configuration
-@EnableAutoConfiguration(
-        exclude = {DataSourceAutoConfiguration.class, HibernateJpaAutoConfiguration.class})
+//@EnableAutoConfiguration(exclude = {DataSourceAutoConfiguration.class, HibernateJpaAutoConfiguration.class})
+@EnableAutoConfiguration(exclude = {DataSourceAutoConfiguration.class})
 public class Application implements AppShellConfigurator {
 
     public static void main(String[] args) {

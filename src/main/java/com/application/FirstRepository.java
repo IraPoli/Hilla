@@ -1,4 +1,4 @@
-package com.application.endpoints.helloreact;
+package com.application;
 import com.application.entity.First;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;

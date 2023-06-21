@@ -1,5 +1,6 @@
-package com.application.endpoints.helloreact;
+package com.application.endpoints;
 
+import com.application.FirstRepository;
 import com.application.entity.First;
 import com.vaadin.flow.server.auth.AnonymousAllowed;
 import dev.hilla.Endpoint;
@@ -12,13 +13,13 @@ import java.util.List;
 public class FirstEndpoint {
 
 
-private  FirstRepository firstRepository;
+private FirstRepository firstRepository;
 
 FirstEndpoint(FirstRepository firstRepository){
     this.firstRepository = firstRepository;
 }
 
-public List<First> findAll(){
+public @Nonnull List< @Nonnull First> findAll(){
     return firstRepository.findAll();
 }
 

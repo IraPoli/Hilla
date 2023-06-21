@@ -4,12 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7ff486e6-a590-4b34-ab46-6aa4d5686611" name="Changes" comment="">
+    <list default="true" id="7ff486e6-a590-4b34-ab46-6aa4d5686611" name="Changes" comment="go">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/application/endpoints/package-info.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/routes.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/routes.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/views/FirstView.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/views/FirstView.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/application/endpoints/helloreact/FirstEndpoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/application/endpoints/helloreact/FirstEndpoint.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/application/entity/First.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/application/entity/First.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/application/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/application/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/application/endpoints/helloreact/FirstEndpoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/application/endpoints/FirstEndpoint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/application/endpoints/helloreact/FirstRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/application/FirstRepository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +23,7 @@
       <list>
         <option value="Class" />
         <option value="Interface" />
+        <option value="package-info" />
       </list>
     </option>
   </component>
@@ -55,7 +58,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/Iryna_Poliakova1/RDPE/cgpp-fe",
+    "last_opened_file_path": "C:/Users/Iryna_Poliakova1/hilla-world",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
@@ -113,6 +116,14 @@
       <option name="presentableId" value="Default" />
       <updated>1687258901099</updated>
     </task>
+    <task id="LOCAL-00001" summary="go">
+      <created>1687353461561</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1687353461561</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -125,6 +136,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="go" />
+    <option name="LAST_COMMIT_MESSAGE" value="go" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

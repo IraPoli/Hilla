@@ -1,6 +1,6 @@
 //import HelloReactView from 'Frontend/views/helloreact/HelloReactView.js';
 //import MainLayout from 'Frontend/views/MainLayout.js';
-import FirstView from 'Frontend/views/FirstView.js';
+import {FirstView} from 'Frontend/views/FirstView.js';
 import { lazy } from 'react';
 import { createBrowserRouter, IndexRouteObject, NonIndexRouteObject, useMatches } from 'react-router-dom';
 
