@@ -1,5 +1,6 @@
 package com.application.endpoints.helloreact;
 
+import com.application.entity.First;
 import com.vaadin.flow.server.auth.AnonymousAllowed;
 import dev.hilla.Endpoint;
 import dev.hilla.Nonnull;
@@ -10,7 +11,7 @@ import java.util.List;
 @AnonymousAllowed
 public class FirstEndpoint {
 
-/*
+
 private  FirstRepository firstRepository;
 
 FirstEndpoint(FirstRepository firstRepository){
@@ -28,8 +29,8 @@ public First add(String task){
 public First update(First first){
     return firstRepository.save(first);
 }
-*/
-    @Nonnull
+
+ /*   @Nonnull
     public String sayHello(@Nonnull String name) {
         if (name.isEmpty()) {
             return "Hello stranger";
@@ -37,4 +38,5 @@ public First update(First first){
             return "Hello " + name;
         }
     }
+    */
 }

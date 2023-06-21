@@ -5,18 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7ff486e6-a590-4b34-ab46-6aa4d5686611" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/frontend/views/FirstView.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/application/endpoints/helloreact/FirstEndpoint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/application/endpoints/helloreact/FirstRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/application/entity/First.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/routes.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/routes.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/views/MainLayout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/views/MainLayout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/views/helloreact/HelloReactView.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/views/helloreact/HelloReactView.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/views/FirstView.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/views/FirstView.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/application/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/application/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/application/endpoints/helloreact/HelloReactEndpoint.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/application/endpoints/helloreact/FirstEndpoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/application/endpoints/helloreact/FirstEndpoint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/application/entity/First.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/application/entity/First.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

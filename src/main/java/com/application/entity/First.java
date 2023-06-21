@@ -10,12 +10,13 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 
 
-@Table(name = "First")
+
+//@Table(name = "First")
 @Entity
 public class First {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue//(strategy = IDENTITY)//(strategy = GenerationType.AUTO)
     private  Long id;
     @NotNull
     private String task;
